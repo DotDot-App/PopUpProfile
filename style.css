@@ -9,8 +9,8 @@ h1 {
 }
 
 img {
-    display: block;
-    margin: auto;
+    display: block !important;
+    margin: auto !important;
 }
 
 .red {
