@@ -1,16 +1,9 @@
 body {
     margin: 0;
-    font-family: 'Questrial';
-    color: #45575E;
+    font-family: 'Questrial' !important;
+    color: #45575E !important;
     padding: 8vh 5vw;
     font-size: 3vh;
-}
-
-img {
-    height: 30vw;
-    width: 30vw;
-    display: block;
-    margin: auto;
 }
 
 h1 {
@@ -18,21 +11,19 @@ h1 {
     font-size: 5vh;
 }
 
-span {
+.red {
     color: #EA5458;
 }
 
-.button {
-    height: 6vh;
-    width: 90vw;
-    background-color: #FEF2F0;
-    line-height: 6vh;
-    text-align: center;
-    color: #EA5458;
-    border-radius: 3vh;
-    margin: 1vh 0px;
-    font-size: 2.5vh;
+.btn-primary {
+    background-color: #EA5458 !important;
+    border-color: #EA5458 !important;
 }
+
+.btn-secondary {
+    background-color: #FEF2F0 !important;
+    border-color: #FEF2F0 !important;
+    color: #EA5458 !important;
 
 .warning {
     background-color: #EA5458;
